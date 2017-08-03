@@ -1,0 +1,9 @@
+1.将错误的class文件生产dex文件：
+                              dx --dex --output=dex输出路径 class路径
+
+2.删除data/data目录下的包
+                           adb shell
+                           cd data/data
+                           r -rm 包名
+                           exit
+
